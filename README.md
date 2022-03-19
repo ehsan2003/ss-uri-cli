@@ -2,14 +2,19 @@
 shadowsocks uri into ss-local config
 
 a shadowsocks uri helper cli tool 
-usage : 
+## installation 
+```
+cargo install ss-uri-cli
+```
+
+## usage : 
 ```
 $ ss-uri-cli ss://YWVzLTEyOC1nY206dGVzdA@192.168.100.1:8888#Foo%20Bar --port 1080 > ss-local.json
 
 $ ss-local -c ss-local.json
 ```
 
-help:
+## help:
 ```
 ss-uri 0.1.0
 cli shadowsocks uri parser based on https://crates.io/crates/ss-uri
