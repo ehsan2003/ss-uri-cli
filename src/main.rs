@@ -13,7 +13,9 @@ struct OutputConfig {
 #[derive(Parser, Debug)]
 #[clap(author, version, about, long_about = None)]
 struct Args {
+    /// shadowsocks uri to parse ( could be either sip002 uri or legacy base64 uri)
     uri: String,
+    /// local port for ss-local config
     #[clap(short, long, default_value_t = 1080)]
     port: u16,
 }

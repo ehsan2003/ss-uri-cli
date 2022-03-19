@@ -1,5 +1,5 @@
 [package]
-description = "cli shadowsocks uri parser based on [ss-uri](https://crates.io/crates/ss-uri)"
+description = "cli shadowsocks uri parser based on https://crates.io/crates/ss-uri"
 edition = "2021"
 homepage = "https://github.com/ehsan2003/ss-uri-cli"
 license = "MIT"
@@ -11,4 +11,4 @@ version = "0.1.0"
 clap = {version = "3.1.6", features = ["derive"]}
 serde = {version = "1.0.135", features = ["derive"]}
 serde_json = "1.0.79"
-ss-uri = "0.1.0"
+ss-uri = "0.3.0"

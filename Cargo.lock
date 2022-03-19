@@ -240,22 +240,22 @@ dependencies = [
 [[package]]
 name = "ss-uri"
 version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bb62afc6e3016011e3cf4e1c7f7f295b3177d84af8263a495507a153fc9472e0"
-dependencies = [
- "base64",
- "percent-encoding",
- "url",
-]
-
-[[package]]
-name = "ss-uri"
-version = "0.2.0"
 dependencies = [
  "clap",
  "serde",
  "serde_json",
- "ss-uri 0.1.0",
+ "ss-uri 0.3.0",
+]
+
+[[package]]
+name = "ss-uri"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c81dd430c8b93696b2355cfd64e980fa4d9fe1ac8f995d22bedec6e5e772058e"
+dependencies = [
+ "base64",
+ "percent-encoding",
+ "url",
 ]
 
 [[package]]
