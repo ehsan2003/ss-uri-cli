@@ -239,16 +239,6 @@ dependencies = [
 
 [[package]]
 name = "ss-uri"
-version = "0.1.0"
-dependencies = [
- "clap",
- "serde",
- "serde_json",
- "ss-uri 0.3.0",
-]
-
-[[package]]
-name = "ss-uri"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c81dd430c8b93696b2355cfd64e980fa4d9fe1ac8f995d22bedec6e5e772058e"
@@ -256,6 +246,16 @@ dependencies = [
  "base64",
  "percent-encoding",
  "url",
+]
+
+[[package]]
+name = "ss-uri-cli"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "serde",
+ "serde_json",
+ "ss-uri",
 ]
 
 [[package]]

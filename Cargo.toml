@@ -3,7 +3,7 @@ description = "cli shadowsocks uri parser based on https://crates.io/crates/ss-u
 edition = "2021"
 homepage = "https://github.com/ehsan2003/ss-uri-cli"
 license = "MIT"
-name = "ss-uri"
+name = "ss-uri-cli"
 readme = "README.md"
 version = "0.1.0"
 
